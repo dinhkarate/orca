@@ -163,7 +163,6 @@ const WorktreeList = React.memo(function WorktreeList({
   })
   const statusMutations = useWorktreeStatusMutations({
     manualOrderCatalog,
-    worktreeMap,
     workspaceStatuses,
     sortBy
   })
